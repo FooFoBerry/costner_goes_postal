@@ -1,0 +1,18 @@
+# Logfile created on 2014-01-13 19:06:03 -0700 by logger.rb/41954
+I, [2014-01-13T19:06:03.710386 #37714]  INFO -- : 0:  mime-types (2.0) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-2.0.gemspec
+I, [2014-01-13T19:06:03.710758 #37714]  INFO -- : 0:  mini_portile (0.5.2) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.5.2.gemspec
+I, [2014-01-13T19:06:03.711009 #37714]  INFO -- : 0:  nokogiri (1.6.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.1.gemspec
+I, [2014-01-13T19:06:03.711251 #37714]  INFO -- : 0:  rack (1.5.2) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-01-13T19:06:03.711487 #37714]  INFO -- : 0:  rack-test (0.6.2) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-13T19:06:03.711723 #37714]  INFO -- : 0:  xpath (2.0.0) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/xpath-2.0.0.gemspec
+I, [2014-01-13T19:06:03.711962 #37714]  INFO -- : 0:  capybara (2.2.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/capybara-2.2.1.gemspec
+I, [2014-01-13T19:06:03.712194 #37714]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-01-13T19:06:03.712427 #37714]  INFO -- : 0:  json (1.8.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-01-13T19:06:03.712656 #37714]  INFO -- : 0:  rack-protection (1.5.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-13T19:06:03.712890 #37714]  INFO -- : 0:  rspec-core (2.14.7) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-2.14.7.gemspec
+I, [2014-01-13T19:06:03.713126 #37714]  INFO -- : 0:  rspec-expectations (2.14.4) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-2.14.4.gemspec
+I, [2014-01-13T19:06:03.713357 #37714]  INFO -- : 0:  rspec-mocks (2.14.4) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-2.14.4.gemspec
+I, [2014-01-13T19:06:03.713585 #37714]  INFO -- : 0:  rspec (2.14.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-2.14.1.gemspec
+I, [2014-01-13T19:06:03.713811 #37714]  INFO -- : 0:  tilt (1.4.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-01-13T19:06:03.714037 #37714]  INFO -- : 0:  sinatra (1.4.4) from /Users/watts/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-13T19:06:03.714250 #37714]  INFO -- : 0:  bundler (1.5.1) from /Users/watts/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
