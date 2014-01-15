@@ -2,8 +2,7 @@ require 'sinatra'
 require 'pry'
 
 class Costner < Sinatra::Base
-
   post '/github' do
-    binding.pry
+    FooFoBerry::GitHubNotification.new(params[:payload]).save!
   end
 end
