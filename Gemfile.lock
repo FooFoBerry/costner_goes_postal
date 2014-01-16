@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/FooFoBerry/foofoberry.git
-  revision: 3de05843923d5cf7f02ed9966301fdc3ba9bcb0c
+  revision: a36c9a5d56e887f0f7a4e96c9d0452e7f575a4ee
   specs:
-    foofoberry (0.0.3)
+    foofoberry (0.0.4)
       faraday
       json
 
