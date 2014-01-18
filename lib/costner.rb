@@ -3,6 +3,9 @@ require 'pry'
 
 class Costner < Sinatra::Base
   post '/notifications/github' do
-    FooFoBerry::GitHubNotification.new(params[:payload]).save!
+    status, body = FooFoBerry::GitHubNotification.new(params[:payload]).save!
+    puts "status is #{status}"
+    puts "body is #{body}"
+    return nil
   end
 end
