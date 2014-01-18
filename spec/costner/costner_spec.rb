@@ -15,7 +15,7 @@ describe Costner do
   it "should 200 response for a post on GitHub Callback" do
     json = File.read('./spec/fixtures/github_payload.json')
     FooFoBerry::GitHubNotification.any_instance.stub(:save!)
-    post '/github',  { "payload" => json }, content_type
+    post '/notifications/github',  { "payload" => json }, content_type
 
     expect(last_response.status).to eq 200
     #expect_any_instance_of(FooFoBerry::GitHubNotification).to receive(:save!)
