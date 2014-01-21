@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/FooFoBerry/foofoberry.git
-  revision: 00781d7aed8426bd76efa5f7602f837913443b7c
+  revision: 6090b36f9886aad782517b40a984350be44674b7
   specs:
-    foofoberry (0.0.4)
+    foofoberry (0.0.8)
       faraday
       json
 
@@ -31,7 +31,7 @@ GEM
       method_source (~> 0.8)
       slop (~> 3.4)
     rack (1.5.2)
-    rack-protection (1.5.1)
+    rack-protection (1.5.2)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
