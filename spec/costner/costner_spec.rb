@@ -22,4 +22,14 @@ describe Costner do
     #FooFoBerry::GitHubNotification.any_instance.should_receive(:save!).with()
   end
 
+  it "should 200 response for a post on Pivotal Tracker Callback" do 
+    json = File.read('./spec/fixtures/tracker_action_payload.json')
+    tracker = double
+    FooFoBerry::TrackerNotification.stub(:new).and_return(tracker)
+    tracker.should_receive(:save!)
+    post '/notifications/tracker', { "payload" => json }, content_type
+
+    expect(last_response.status).to eq 200
+  end
+
 end
