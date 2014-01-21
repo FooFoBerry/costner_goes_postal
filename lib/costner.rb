@@ -15,11 +15,11 @@ class Costner < Sinatra::Base
   end
 end
 
-module FooFoBerry
-  class TrackerNotification
-    def initialize(data)
-    end
-    def save!
-    end
-  end
-end
+# module FooFoBerry
+#   class TrackerNotification
+#     def initialize(data)
+#     end
+#     def save!
+#     end
+#   end
+#end
