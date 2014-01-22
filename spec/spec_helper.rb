@@ -7,3 +7,5 @@ require 'rspec'
 require 'rspec/autorun'
 require 'rack/test'
 require 'pry'
+require 'coveralls'
+Coveralls.wear!
