@@ -9,17 +9,8 @@ class Costner < Sinatra::Base
     return nil
   end
 
-  post '/notifications/tracker' do 
+  post '/notifications/tracker' do
     status, body = FooFoBerry::TrackerNotification.new(params[:payload]).save!
     return nil
   end
 end
-
-# module FooFoBerry
-#   class TrackerNotification
-#     def initialize(data)
-#     end
-#     def save!
-#     end
-#   end
-#end
