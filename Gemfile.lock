@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/FooFoBerry/foofoberry.git
-  revision: 4efbb5376a9a0b85da571421345ae61b6e8864d9
+  revision: c7cfe7e195fa32295d96e04b83e15ccb2eafba71
   specs:
-    foofoberry (0.0.10)
+    foofoberry (0.1.0)
       faraday
       json
 
@@ -43,6 +43,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.1.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rspec (2.14.1)
@@ -82,5 +83,6 @@ DEPENDENCIES
   json
   pry
   rack-test
+  rake
   rspec
   sinatra

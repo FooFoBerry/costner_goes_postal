@@ -10,7 +10,8 @@ class Costner < Sinatra::Base
   end
 
   post '/notifications/tracker' do
-    status, body = FooFoBerry::TrackerNotification.new(params[:payload]).save!
+    body = request.body.read
+    status, body = FooFoBerry::TrackerNotification.new(body).save!
     return nil
   end
 end
